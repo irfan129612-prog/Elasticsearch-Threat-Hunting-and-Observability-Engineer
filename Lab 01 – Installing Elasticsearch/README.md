@@ -173,13 +173,13 @@ Expected Result:
 
 ## Elasticsearch Installation
 
-![Elasticsearch Installation](installing Elasticsearch.png)
+![Elasticsearch Installation](elasticsearch-installation.png)
 
 ---
 
 ## Elasticsearch Service Status
 
-![Elasticsearch Service Status](elasticsearch status.png)
+![Elasticsearch Service Status](elasticsearch-status.png)
 
 ---
 
