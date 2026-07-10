@@ -153,13 +153,7 @@ Verified parsed fields such as:
 
 ## 1️⃣ Logstash Grok Configuration
 
-> Add screenshot showing **logstash-grok.conf**.
-
----
-
-## 2️⃣ Logstash Pipeline Running Successfully
-
-> Add screenshot showing the Logstash terminal with the running pipeline.
+![](logstash-running.png)
 
 ---
 
