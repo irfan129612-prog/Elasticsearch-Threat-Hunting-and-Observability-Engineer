@@ -339,24 +339,6 @@ After completing this lab, I successfully:
 
 ---
 
-# 📷 Screenshots
-
-### Screenshot 1
-
-**Creating Ingest Pipeline in Kibana Dev Tools**
-
-> *(Insert screenshot here)*
-
----
-
-### Screenshot 2
-
-**Processed Document Verified in Kibana Discover**
-
-> *(Insert screenshot here)*
-
----
-
 # 🏁 Conclusion
 
 This lab demonstrated how **Elasticsearch Ingest Node Pipelines** can automatically transform incoming data before indexing. By using **Set** and **Grok** processors, raw log messages were enriched and converted into structured fields, making them easier to search, analyze, and visualize in Kibana. Ingest pipelines are a powerful feature for implementing centralized data processing without requiring external tools like Logstash for simple transformations.
