@@ -125,7 +125,7 @@ Timelines allow analysts to organize evidence during investigations.
 
 ### Screenshot 2
 
-> 📷 *Insert screenshot showing the Hosts, Network, or Timeline page.*
+## Hosts-Overview
 
 ![](Hosts-overview.png)
 
