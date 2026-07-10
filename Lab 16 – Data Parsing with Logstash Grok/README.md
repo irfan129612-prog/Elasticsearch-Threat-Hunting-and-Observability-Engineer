@@ -151,7 +151,7 @@ Verified parsed fields such as:
 
 # 📸 Screenshots
 
-## 1️⃣ Logstash Grok Configuration
+## 1️⃣ Logstash Grok running
 
 ![](logstash-running.png)
 
