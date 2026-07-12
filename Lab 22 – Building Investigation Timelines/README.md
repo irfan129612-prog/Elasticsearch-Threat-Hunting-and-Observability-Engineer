@@ -207,7 +207,8 @@ After completing this lab, the following skills were achieved:
 ## 📷 Screenshot
 
 ## Investigation Timeline 
-![](timelines.png)
+
+![](Timelines.png)
 
 ---
 
