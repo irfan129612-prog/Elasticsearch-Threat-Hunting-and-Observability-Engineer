@@ -1,0 +1,29 @@
+
+---
+
+### alert-config.json
+
+```json
+{
+  "email_connector": {
+    "actionTypeId": ".email",
+    "config": {
+      "host": "smtp.example.com",
+      "port": 587,
+      "secure": false,
+      "username": "your-username",
+      "password": "your-password"
+    }
+  },
+
+  "alert_action": {
+    "actionTypeId": ".email",
+    "config": {
+      "to": [
+        "recipient@example.com"
+      ],
+      "subject": "Kibana Alert Triggered",
+      "message": "An alert has been triggered based on the defined conditions."
+    }
+  }
+}
