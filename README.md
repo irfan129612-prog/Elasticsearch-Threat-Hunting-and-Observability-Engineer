@@ -1,16 +1,16 @@
 # 🚀 Elastic Stack (ELK) Labs
 
-> A hands-on collection of Elastic Stack (ELK) labs covering Elasticsearch, Kibana, Beats, Logstash, Elastic Security (SIEM), Threat Hunting, Observability, Dashboards, Detection Rules, and Performance Optimization.
+A comprehensive collection of **50 hands-on Elastic Stack (ELK) labs** covering Elasticsearch, Kibana, Beats, Logstash, Elastic Security (SIEM), Threat Hunting, Observability, Dashboards, Detection Rules, Watcher, ECS, and Performance Optimization.
 
 ---
 
-## 📌 Repository Overview
+# 📌 Repository Overview
 
-This repository documents my practical journey of learning and implementing the Elastic Stack ecosystem through hands-on labs.
+This repository documents my practical learning journey through the **Elastic Stack ecosystem**. Each lab focuses on a specific feature or component of Elasticsearch and Kibana, gradually building towards a complete **Security Information and Event Management (SIEM)** solution.
 
-The labs progress from installing Elasticsearch to building a complete SIEM environment capable of log collection, threat detection, security monitoring, observability, and dashboard creation.
+The repository covers everything from installing Elasticsearch to creating a fully functional Threat Hunting and Observability dashboard.
 
-Every lab contains:
+Each lab includes:
 
 - 📖 Lab Summary
 - 🎯 Objectives
@@ -25,22 +25,22 @@ Every lab contains:
 
 # 🎯 Learning Objectives
 
-By completing these labs I learned to:
+Through these labs I learned how to:
 
-- Install and configure Elasticsearch
-- Configure Kibana
+- Install and configure Elasticsearch & Kibana
 - Collect logs using Beats
-- Parse data with Logstash
-- Build Elasticsearch pipelines
-- Create dashboards and visualizations
-- Perform Threat Hunting
-- Create Detection Rules
-- Configure Alerts
-- Work with Elastic Security
-- Understand ECS
-- Use APM and Observability
-- Optimize Elasticsearch performance
-- Build a complete SIEM workflow
+- Process logs with Logstash
+- Create Elasticsearch Ingest Pipelines
+- Understand Indices, Shards & Replicas
+- Build Kibana Dashboards & Visualizations
+- Perform Threat Hunting with KQL & EQL
+- Configure Detection Rules & Alerts
+- Work with Elastic Security (SIEM)
+- Implement ECS (Elastic Common Schema)
+- Use APM & Observability
+- Create Canvas Reports
+- Optimize Elasticsearch Performance
+- Build a complete Elastic Stack SIEM environment
 
 ---
 
@@ -54,15 +54,14 @@ By completing these labs I learned to:
 - Packetbeat
 - Heartbeat
 - Elastic Security (SIEM)
-- Elastic Agent
 - ECS (Elastic Common Schema)
+- Kibana Lens
+- Canvas
+- Watcher
 - KQL
 - EQL
 - ILM
 - APM
-- Canvas
-- Lens
-- Watcher
 - Ubuntu Linux
 
 ---
@@ -88,57 +87,57 @@ By completing these labs I learned to:
 
 ---
 
-## Module 03 — Elastic Beats
+## Module 03 — Beats & Data Collection
 
 - ✅ Lab 10 – Introduction to Filebeat
 - ✅ Lab 11 – Introduction to Metricbeat
 - ✅ Lab 12 – Introduction to Packetbeat
 - ✅ Lab 13 – Introduction to Heartbeat
-- ✅ Lab 14 – Adding Syslog Data with Filebeat
+- ✅ Lab 14 – Elasticsearch Security Basic
+- ✅ Lab 15 – Adding Syslog Data with Filebeat
 
 ---
 
 ## Module 04 — Data Processing
 
-- ✅ Lab 15 – Data Parsing with Logstash Grok
-- ✅ Lab 16 – Ingest Node Pipelines
-- ✅ Lab 17 – Field Mappings & ECS
-- ✅ Lab 18 – Creating a Custom ECS Pipeline
-- ✅ Lab 19 – Data Retention with Index Lifecycle Management (ILM)
+- ✅ Lab 16 – Data Parsing with Logstash Grok
+- ✅ Lab 17 – Ingest Node Pipelines
+- ✅ Lab 18 – Data Retention with Index Lifecycle Management (ILM)
 
 ---
 
 ## Module 05 — Elastic Security (SIEM)
 
-- ✅ Lab 20 – Elasticsearch Security Basics
-- ✅ Lab 21 – Introduction to Elastic Security App
-- ✅ Lab 22 – Host Overview
-- ✅ Lab 23 – Network Overview
-- ✅ Lab 24 – Building Investigation Timelines
-- ✅ Lab 25 – Threat Hunting with KQL
-- ✅ Lab 26 – Introduction to Detection Rules
-- ✅ Lab 27 – Custom Detection Rules
-- ✅ Lab 28 – Alerting & Actions
-- ✅ Lab 29 – Machine Learning Basics
+- ✅ Lab 19 – Intro to Elastic Security
+- ✅ Lab 20 – Host Overview
+- ✅ Lab 21 – Network Overview
+- ✅ Lab 22 – Building Investigation Timelines
+- ✅ Lab 23 – Threat Hunting with KQL
+- ✅ Lab 24 – Introduction to Detection Rules
+- ✅ Lab 25 – Custom Detection Rules
+- ✅ Lab 26 – Alerting & Actions in Kibana
+- ✅ Lab 27 – Machine Learning Basics
 
 ---
 
 ## Module 06 — Observability
 
-- ✅ Lab 30 – Observability Overview
-- ✅ Lab 31 – Logs UI
-- ✅ Lab 32 – Metrics UI
-- ✅ Lab 33 – APM Fundamentals
-- ✅ Lab 34 – Service Map Visualization
-- ✅ Lab 35 – Synthetic Monitoring
-- ✅ Lab 36 – Distributed Tracing
+- ✅ Lab 28 – Observability Overview
+- ✅ Lab 29 – Centralized Logs View with Logs UI
+- ✅ Lab 30 – Metrics UI for System Observability
+- ✅ Lab 31 – APM Fundamentals
+- ✅ Lab 32 – Service Map Visualization in APM
+- ✅ Lab 33 – Synthetic Monitoring Basics
+- ✅ Lab 34 – Tracing with Distributed Traces
 
 ---
 
 ## Module 07 — Dashboards & Visualization
 
-- ✅ Lab 37 – Custom Threat Hunting Visualizations
-- ✅ Lab 38 – Kibana Canvas
+- ✅ Lab 35 – Threat Hunting Using Kibana Visualizations
+- ✅ Lab 36 – Field Mappings & ECS (Elastic Common Schema)
+- ✅ Lab 37 – Creating a Custom ECS Pipeline
+- ✅ Lab 38 – Kibana Canvas for Reporting (Kibana 9.4.3)
 - ✅ Lab 39 – Historical Threat Analysis
 - ✅ Lab 40 – Exporting & Sharing Dashboards
 - ✅ Lab 41 – Trend Analysis Over Time
@@ -147,19 +146,19 @@ By completing these labs I learned to:
 
 ## Module 08 — Advanced Elasticsearch
 
-- ✅ Lab 42 – Watcher for Alerting
-- ✅ Lab 43 – Basic vs Platinum Features
+- ✅ Lab 42 – Basic Alerting with Elasticsearch Watcher
+- ✅ Lab 43 – Basic License vs Platinum Features
 - ✅ Lab 44 – Index Patterns & Field Customization
 - ✅ Lab 45 – GeoIP Threat Hunting
 - ✅ Lab 46 – Event Query Language (EQL)
-- ✅ Lab 47 – Elasticsearch Performance
+- ✅ Lab 47 – Maintaining Elasticsearch Performance
 - ✅ Lab 48 – Handling Large Log Volumes
 
 ---
 
-## Module 09 — Final SIEM Project
+## Module 09 — Final Project
 
-- ✅ Lab 49 – Lab-Scale Threat Simulation
+- ✅ Lab 49 – Setting Up a Lab-Scale Threat Simulation
 - ✅ Lab 50 – Final Observability & Threat Hunting Dashboard
 
 ---
@@ -172,10 +171,7 @@ Elastic-Stack-Labs/
 ├── Lab-01-Installing-Elasticsearch/
 ├── Lab-02-Installing-Kibana/
 ├── Lab-03-Basic-Elasticsearch-Querying/
-├── Lab-04-Loading-Sample-Log-Data/
-│
 ├── ...
-│
 ├── Lab-50-Final-Observability-Threat-Hunting-Dashboard/
 │
 └── README.md
@@ -187,30 +183,55 @@ Elastic-Stack-Labs/
 
 - Elasticsearch Administration
 - Kibana Dashboard Development
-- SIEM Operations
+- Elastic Stack Deployment
 - Log Management
+- Beats Configuration
+- Logstash Pipelines
+- ECS Implementation
+- SIEM Operations
 - Threat Hunting
 - Detection Engineering
-- Linux Administration
-- Logstash Pipelines
-- Beats Configuration
+- Incident Investigation
 - Security Monitoring
 - Observability
-- Incident Investigation
-- Data Visualization
+- APM Monitoring
+- Dashboard & Canvas Reporting
 - Performance Optimization
-- Elastic Stack Administration
+- Linux Administration
 
 ---
 
 # 🎓 Learning Outcome
 
-After completing these labs, I gained practical experience in deploying and managing the Elastic Stack for centralized logging, security monitoring, observability, threat hunting, and dashboard development. The repository demonstrates hands-on skills in Elasticsearch administration, Kibana visualization, Beats data collection, Logstash processing, Elastic Security, and SIEM operations.
+After completing these 50 hands-on labs, I gained practical experience in deploying, configuring, and managing the Elastic Stack for centralized logging, security monitoring, threat hunting, observability, and dashboard development.
+
+This repository demonstrates practical knowledge of:
+
+- Elasticsearch Administration
+- Kibana Visualization
+- Beats Configuration
+- Logstash Pipelines
+- Elastic Security (SIEM)
+- Detection Rules
+- Alerting
+- ECS Implementation
+- Observability
+- APM
+- Threat Hunting
+- Performance Tuning
 
 ---
 
-## ⭐ Repository Status
+# ⭐ Repository Status
 
-**Progress:** 🟢 In Progress / Continuously Updated
+**Status:** ✅ Completed (50/50 Labs)
 
-New labs and improvements will be added as my Elastic Stack learning journey continues.
+This repository contains all **50 completed Elastic Stack labs**. Future updates may include advanced Elastic Security use cases, Detection Engineering scenarios, integrations, and additional real-world SIEM projects.
+
+---
+
+## 📬 Connect With Me
+
+If you found this repository helpful, consider giving it a ⭐ and feel free to connect with me on GitHub.
+
+Happy Learning! 🚀
