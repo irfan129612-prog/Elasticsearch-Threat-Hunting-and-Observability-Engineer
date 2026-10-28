@@ -1,4 +1,32 @@
-# 🚀 Elastic Stack (ELK) Labs
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&height=140&color=0:0F172A,50:155E75,100:0EA5E9&text=Threat%20Hunting%20and%20Observability&fontColor=FFFFFF&fontSize=25&desc=Elasticsearch%2C%20Kibana%2C%20Beats%2C%20Logstash&descSize=13&descAlignY=76" alt="Threat Hunting and Observability" width="100%"/>
+
+<h2>Threat Hunting and Observability</h2>
+**Elastic Stack labs spanning ingestion, threat hunting and observability.**
+
+[🏠 Main Profile](https://github.com/irfan129612-prog) · [📂 All Repositories](https://github.com/irfan129612-prog?tab=repositories) · [🔗 LinkedIn](https://www.linkedin.com/in/irfan1296/)
+</div>
+
+---
+
+## 🔎 Repository Overview
+
+| **Focus** | Threat Hunting and Observability |
+| :--- | :--- |
+| **Topics / Tools** | Elasticsearch, Kibana, Beats, Logstash |
+| **Portfolio type** | Technical labs and project documentation |
+| **Maintainer** | [Irfan Ahmed](https://github.com/irfan129612-prog) |
+
+### Quick Navigation
+- [Lab and project documentation](#-lab-and-project-documentation)
+- [Documentation standard](#-documentation-standard)
+- [Contact](#-contact)
+
+> **Evidence note:** Documented activities and results should be evaluated from actual lab files and screenshots. Never expose credentials, real tokens, personal data or unauthorized security targets.
+
+---
+
+## 📚 Lab and Project Documentation
 
 A comprehensive collection of **50 hands-on Elastic Stack (ELK) labs** covering Elasticsearch, Kibana, Beats, Logstash, Elastic Security (SIEM), Threat Hunting, Observability, Dashboards, Detection Rules, Watcher, ECS, and Performance Optimization.
 
@@ -235,3 +263,15 @@ This repository contains all **50 completed Elastic Stack labs**. Future updates
 If you found this repository helpful, consider giving it a ⭐ and feel free to connect with me on GitHub.
 
 Happy Learning! 🚀
+
+---
+
+## 🗂 Documentation Standard
+
+For each lab, the recommended structure is **objective → prerequisites → implementation → verification → troubleshooting → lessons learned**. Add sanitized screenshots, code, configuration, datasets and expected output where available. This is an ongoing documentation standard, not a claim that every existing lab has all these components.
+
+## 🤝 Contact
+
+Maintained by **[Irfan Ahmed](https://github.com/irfan129612-prog)** · [LinkedIn](https://www.linkedin.com/in/irfan1296/)
+
+<p align="center"><sub>Learn → Implement → Verify → Document → Improve</sub></p>
