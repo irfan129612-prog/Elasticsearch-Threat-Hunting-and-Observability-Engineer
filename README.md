@@ -26,6 +26,10 @@
 
 ---
 
+## 📑 Verified Lab Index
+
+**[Browse the actual lab files →](LAB_INDEX.md)** — links are generated from existing repository paths.
+
 ## 📚 Lab and Project Documentation
 
 A comprehensive collection of **50 hands-on Elastic Stack (ELK) labs** covering Elasticsearch, Kibana, Beats, Logstash, Elastic Security (SIEM), Threat Hunting, Observability, Dashboards, Detection Rules, Watcher, ECS, and Performance Optimization.
