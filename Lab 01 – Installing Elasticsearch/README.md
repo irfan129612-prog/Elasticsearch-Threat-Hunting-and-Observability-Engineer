@@ -230,3 +230,10 @@ sudo /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic -i
 # ✅ Conclusion
 
 This lab demonstrated the complete installation and initial configuration of Elasticsearch on Ubuntu Linux using the official Elastic APT repository. The repository and GPG key were configured, Elasticsearch was installed, the service was enabled and started, JVM settings were reviewed, and the default administrator password was reset. Finally, the service status was verified, providing a fully functional Elasticsearch installation ready for integration with Kibana, Logstash, and other SIEM components.
+
+
+---
+
+### 📚 Portfolio Navigation
+
+[← All Labs](../LAB_INDEX.md) · [Repository Overview](../README.md) · [Main Portfolio](https://github.com/irfan129612-prog)
